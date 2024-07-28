@@ -26,7 +26,7 @@ public class ReferralLeaderboardCommand implements CommandExecutor {
         StringBuilder message = new StringBuilder(ChatColor.DARK_AQUA + "Referral Leaderboard:");
         int i = 1;
         if (topPlayers == null) {
-            commandSender.sendMessage(ChatColor.RED + "There are no players with referrals yet.");
+            commandSender.sendMessage(ChatColor.DARK_AQUA + "There are no players with referrals yet.");
         } else {
             for (RefUser user : topPlayers) {
                 message.append("\n").append(i).append(". ").append(Bukkit.getOfflinePlayer(user.getUUID()).getName()).append(" - ").append(user.getPlayerScore());
