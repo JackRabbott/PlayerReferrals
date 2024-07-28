@@ -1,2 +1,2 @@
 # PlayerReferrals
-Pull requests are welcome!
+Configured for the Jenkins server to integrate into CE-ECHO
